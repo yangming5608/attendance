@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication(scanBasePackages = "com.rabbiter")
-public class AttendanceManagerApplication {
+public class AttendanceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AttendanceManagerApplication.class, args);
+        SpringApplication.run(AttendanceApplication.class, args);
     }
 
 }
